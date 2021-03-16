@@ -10,12 +10,12 @@
     <title>Profile | Asean University International</title>
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
-
+    <link rel="shortcut icon" href="assets/img/aui/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="assets/img/aui/logo.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="assets/img/aui/logo.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="assets/img/aui/logo.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="assets/img/aui/logo.png">
+	
     <!-- BASE CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
@@ -37,9 +37,9 @@
 			<a href="/"><img src="assets/img/aui/logo3.png" data-retina="true" alt=""></a>
 		</div>
 		<ul id="top_menu">
-			<li><a href="login.html" class="login">Login</a></li>
+			{{-- <li><a href="login.html" class="login">Login</a></li> --}}
 			<li><a href="#0" class="search-overlay-menu-btn">Search</a></li>
-			<li class="hidden_tablet"><a href="admission.html" class="btn_1 rounded">Admission</a></li>
+			<li class="hidden_tablet"><a href="/login" class="btn_1 rounded">Login</a></li>
 		</ul>
 		<!-- /top_menu -->
 		<a href="#menu" class="btn_mobile">

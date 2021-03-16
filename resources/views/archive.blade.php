@@ -9,12 +9,12 @@
     <meta name="author" content="Ansonika">
     <title>Subscribe | Asean University International</title>
 
-    <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+   <!-- Favicons-->
+    <link rel="shortcut icon" href="assets/img/aui/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="assets/img/aui/logo.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="assets/img/aui/logo.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="assets/img/aui/logo.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="assets/img/aui/logo.png">
 
     <!-- GOOGLE WEB FONT -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
@@ -40,9 +40,9 @@
 			<a href="/"><img src="assets/img/aui/logo3.png" data-retina="true" alt=""></a>
 		</div>
 		<ul id="top_menu">
-			<li><a href="login.html" class="login">Login</a></li>
+			{{-- <li><a href="login.html" class="login">Login</a></li> --}}
 			<li><a href="#0" class="search-overlay-menu-btn">Search</a></li>
-			<li class="hidden_tablet"><a href="admission.html" class="btn_1 rounded">Admission</a></li>
+			<li class="hidden_tablet"><a href="/login" class="btn_1 rounded">Login</a></li>
 		</ul>
 		<!-- /top_menu -->
 		<a href="#menu" class="btn_mobile">
@@ -154,10 +154,10 @@
 			<div class="row">
 				<div class="col-xl-4 col-lg-6 col-md-6">
 					<div class="box_grid wow">
-						<figure class="block-reveal">
+						<figure class="block-reveal" style="max-height: 250px;">
 							<div class="block-horizzontal"></div>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_1.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="assets/img/aui/contoh.jpg" class="img-fluid" alt=""></a>
 							{{-- <div class="price">$54</div> --}}
 							<div class="preview"><span>Preview journal</span></div>
 						</figure>
@@ -170,17 +170,17 @@
 						<ul>
 							{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Unsubscribe</a></li>
+							<li><a href="course-detail.html">Unarchive</a></li>
 						</ul>
 					</div>
 				</div>
 				<!-- /box_grid -->
 				<div class="col-xl-4 col-lg-6 col-md-6">
 					<div class="box_grid wow">
-						<figure class="block-reveal">
+						<figure class="block-reveal" style="max-height: 250px;">
 							<div class="block-horizzontal"></div>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_2.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="assets/img/aui/contoh2.jpg"  class="img-fluid" alt=""></a>
 							{{-- <div class="price">$45</div> --}}
 							<div class="preview"><span>Preview journal</span></div>
 						</figure>
@@ -193,17 +193,17 @@
 						<ul>
 							{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Unsubscribe</a></li>
+							<li><a href="course-detail.html">Unarchive</a></li>
 						</ul>
 					</div>
 				</div>
 				<!-- /box_grid -->
 				<div class="col-xl-4 col-lg-6 col-md-6">
 					<div class="box_grid wow">
-						<figure class="block-reveal">
+						<figure class="block-reveal" style="max-height: 250px; ">
 							<div class="block-horizzontal"></div>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_3.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="assets/img/aui/contoh3.jpg" class="img-fluid" alt=""></a>
 							{{-- <div class="price">$39</div> --}}
 							<div class="preview"><span>Preview journal</span></div>
 						</figure>
@@ -216,17 +216,17 @@
 						<ul>
 							{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Unsubscribe</a></li>
+							<li><a href="course-detail.html">Unarchive</a></li>
 						</ul>
 					</div>
 				</div>
 				<!-- /box_grid -->
 				<div class="col-xl-4 col-lg-6 col-md-6">
 					<div class="box_grid wow">
-						<figure class="block-reveal">
+						<figure class="block-reveal" style="max-height: 250px;">
 							<div class="block-horizzontal"></div>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_4.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="assets/img/aui/contoh4.jpg"  class="img-fluid" alt=""></a>
 							{{-- <div class="price">$60</div> --}}
 							<div class="preview"><span>Preview journal</span></div>
 						</figure>
@@ -239,17 +239,17 @@
 						<ul>
 							{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Unsubscribe</a></li>
+							<li><a href="course-detail.html">Unarchive</a></li>
 						</ul>
 					</div>
 				</div>
 				<!-- /box_grid -->
 				<div class="col-xl-4 col-lg-6 col-md-6">
 					<div class="box_grid wow">
-						<figure class="block-reveal">
+						<figure class="block-reveal" style="max-height: 250px;">
 							<div class="block-horizzontal"></div>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_5.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="assets/img/aui/contoh5.jpg"  class="img-fluid" alt=""></a>
 							{{-- <div class="price">$45</div> --}}
 							<div class="preview"><span>Preview journal</span></div>
 						</figure>
@@ -262,17 +262,17 @@
 						<ul>
 							{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Unsubscribe</a></li>
+							<li><a href="course-detail.html">Unarchive</a></li>
 						</ul>
 					</div>
 				</div>
 				<!-- /box_grid -->
 				<div class="col-xl-4 col-lg-6 col-md-6">
 					<div class="box_grid wow">
-						<figure class="block-reveal">
+						<figure class="block-reveal" style="max-height: 250px;">
 							<div class="block-horizzontal"></div>
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_6.jpg" class="img-fluid" alt=""></a>
+							<a href="course-detail.html"><img src="assets/img/aui/contoh6.jfif"  class="img-fluid" alt=""></a>
 							{{-- <div class="price">$39</div> --}}
 							<div class="preview"><span>Preview journal</span></div>
 						</figure>
@@ -285,7 +285,7 @@
 						<ul>
 							{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Unsubscribe</a></li>
+							<li><a href="course-detail.html">Unarchive</a></li>
 						</ul>
 					</div>
 					<!-- /box_grid -->

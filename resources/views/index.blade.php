@@ -10,11 +10,11 @@
     <title>AUI | Asean University International</title>
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+    <link rel="shortcut icon" href="assets/img/aui/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="assets/img/aui/logo.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="assets/img/aui/logo.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="assets/img/aui/logo.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="assets/img/aui/logo.png">
 
     <!-- GOOGLE WEB FONT -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
@@ -40,9 +40,9 @@
 			<a href="/"><img src="assets/img/aui/logo3.png" data-retina="true" alt=""></a>
 		</div>
 		<ul id="top_menu">
-			<li><a href="login.html" class="login">Login</a></li>
+			{{-- <li><a href="login.html" class="login">Login</a></li> --}}
 			<li><a href="#0" class="search-overlay-menu-btn">Search</a></li>
-			<li class="hidden_tablet"><a href="admission.html" class="btn_1 rounded">Admission</a></li>
+			<li class="hidden_tablet"><a href="/login" class="btn_1 rounded">Login</a></li>
 		</ul>
 		<!-- /top_menu -->
 		<a href="#menu" class="btn_mobile">
@@ -153,12 +153,12 @@
 			<div id="reccomended" class="owl-carousel owl-theme">
 				<div class="item">
 					<div class="box_grid">
-						<figure>
+						<figure style="max-height: 250px;">
 							<a href="#0" class="wish_bt"></a>
 							<a href="course-detail.html">
-								<div class="preview"><span>Preview course</span></div><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_1.jpg" class="img-fluid" alt=""></a>
-							<div class="price">$39</div>
-
+								<div class="preview"><span>Preview Journal</span></div><img src="assets/img/aui/contoh.jpg" class="img-fluid" alt="">
+							</a>
+							{{-- <div class="price">$39</div> --}}
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -167,20 +167,21 @@
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 						</div>
 						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
+							{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Enroll now</a></li>
+							<li><a href="course-detail.html">Preview</a></li>
 						</ul>
 					</div>
 				</div>
 				<!-- /item -->
 				<div class="item">
 					<div class="box_grid">
-						<figure>
+						<figure style="max-height: 250px;">
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_2.jpg" class="img-fluid" alt=""></a>
-							<div class="price">$45</div>
-							<div class="preview"><span>Preview course</span></div>
+							<a href="course-detail.html">
+								<div class="preview"><span>Preview Journal</span></div><img src="assets/img/aui/contoh2.jpg" class="img-fluid" alt="">
+							</a>
+							{{-- <div class="price">$39</div> --}}
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -189,20 +190,21 @@
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 						</div>
 						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
+							{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Enroll now</a></li>
+							<li><a href="course-detail.html">Preview</a></li>
 						</ul>
 					</div>
 				</div>
 				<!-- /item -->
 				<div class="item">
 					<div class="box_grid">
-						<figure>
+						<figure style="max-height: 250px;">
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_3.jpg" class="img-fluid" alt=""></a>
-							<div class="price">$54</div>
-							<div class="preview"><span>Preview course</span></div>
+							<a href="course-detail.html">
+								<div class="preview"><span>Preview Journal</span></div><img src="assets/img/aui/contoh3.jpg" class="img-fluid" alt="">
+							</a>
+							{{-- <div class="price">$39</div> --}}
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -211,20 +213,21 @@
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 						</div>
 						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
+							{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Enroll now</a></li>
+							<li><a href="course-detail.html">Preview</a></li>
 						</ul>
 					</div>
 				</div>
 				<!-- /item -->
 				<div class="item">
 					<div class="box_grid">
-						<figure>
+						<figure style="max-height: 250px;">
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_4.jpg" class="img-fluid" alt=""></a>
-							<div class="price">$27</div>
-							<div class="preview"><span>Preview course</span></div>
+							<a href="course-detail.html">
+								<div class="preview"><span>Preview Journal</span></div><img src="assets/img/aui/contoh4.jpg" class="img-fluid" alt="">
+							</a>
+							{{-- <div class="price">$39</div> --}}
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -233,20 +236,21 @@
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 						</div>
 						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
+							{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Enroll now</a></li>
+							<li><a href="course-detail.html">Preview</a></li>
 						</ul>
 					</div>
 				</div>
 				<!-- /item -->
 				<div class="item">
 					<div class="box_grid">
-						<figure>
+						<figure style="max-height: 250px;">
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_5.jpg" class="img-fluid" alt=""></a>
-							<div class="price">$35</div>
-							<div class="preview"><span>Preview course</span></div>
+							<a href="course-detail.html">
+								<div class="preview"><span>Preview Journal</span></div><img src="assets/img/aui/contoh5.jpg" class="img-fluid" alt="">
+							</a>
+							{{-- <div class="price">$39</div> --}}
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -255,20 +259,21 @@
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 						</div>
 						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
+							{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Enroll now</a></li>
+							<li><a href="course-detail.html">Preview</a></li>
 						</ul>
 					</div>
 				</div>
 				<!-- /item -->
 				<div class="item">
 					<div class="box_grid">
-						<figure>
+						<figure style="max-height: 250px;">
 							<a href="#0" class="wish_bt"></a>
-							<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_6.jpg" class="img-fluid" alt=""></a>
-							<div class="price">$54</div>
-							<div class="preview"><span>Preview course</span></div>
+							<a href="course-detail.html">
+								<div class="preview"><span>Preview Journal</span></div><img src="assets/img/aui/contoh6.jfif" class="img-fluid" alt="">
+							</a>
+							{{-- <div class="price">$39</div> --}}
 						</figure>
 						<div class="wrapper">
 							<small>Category</small>
@@ -277,9 +282,9 @@
 							<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 						</div>
 						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
+							{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 							<li><i class="icon_like"></i> 890</li>
-							<li><a href="course-detail.html">Enroll now</a></li>
+							<li><a href="course-detail.html">Preview</a></li>
 						</ul>
 					</div>
 				</div>
@@ -305,7 +310,7 @@
 					<a href="#0" class="grid_item">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="http://via.placeholder.com/800x533/ccc/fff/course_1.jpg" class="img-fluid" alt="">
+							<img src="assets/img/aui/ah.jfif" class="img-fluid" alt="">
 							<div class="info">
 								<small><i class="ti-layers"></i>15 Programmes</small>
 								<h3>Arts and Humanities</h3>
@@ -318,7 +323,7 @@
 					<a href="#0" class="grid_item">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="http://via.placeholder.com/800x533/ccc/fff/course_2.jpg" class="img-fluid" alt="">
+							<img src="assets/img/aui/eng.jpg" class="img-fluid" alt="">
 							<div class="info">
 								<small><i class="ti-layers"></i>23 Programmes</small>
 								<h3>Engineering</h3>
@@ -331,7 +336,7 @@
 					<a href="#0" class="grid_item">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="http://via.placeholder.com/800x533/ccc/fff/course_3.jpg" class="img-fluid" alt="">
+							<img src="assets/img/aui/arch.jpg" class="img-fluid" alt="">
 							<div class="info">
 								<small><i class="ti-layers"></i>23 Programmes</small>
 								<h3>Architecture</h3>
@@ -344,7 +349,7 @@
 					<a href="#0" class="grid_item">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="http://via.placeholder.com/800x533/ccc/fff/course_4.jpg" class="img-fluid" alt="">
+							<img src="assets/img/aui/sc.jpg" class="img-fluid" alt="">
 							<div class="info">
 								<small><i class="ti-layers"></i>23 Programmes</small>
 								<h3>Science and Biology</h3>
@@ -357,7 +362,7 @@
 					<a href="#0" class="grid_item">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="http://via.placeholder.com/800x533/ccc/fff/course_5.jpg" class="img-fluid" alt="">
+							<img src="assets/img/aui/law.jpeg" class="img-fluid" alt="">
 							<div class="info">
 								<small><i class="ti-layers"></i>23 Programmes</small>
 								<h3>Law and Criminology</h3>
@@ -370,7 +375,7 @@
 					<a href="#0" class="grid_item">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="http://via.placeholder.com/800x533/ccc/fff/course_6.jpg" class="img-fluid" alt="">
+							<img src="assets/img/aui/doc.jpg" class="img-fluid" alt="">
 							<div class="info">
 								<small><i class="ti-layers"></i>23 Programmes</small>
 								<h3>Medical</h3>
