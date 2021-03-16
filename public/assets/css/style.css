@@ -652,9 +652,9 @@ header.header.sticky {
   -webkit-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background: #480048;
-  background: -webkit-linear-gradient(left, #480048, #C04848);
-  background: linear-gradient(to right, #480048, #C04848);
+  background: #ffffff;
+  /* background: -webkit-linear-gradient(left, #480048, #C04848);
+  background: linear-gradient(to right, #480048, #C04848); */
   padding: 15px 20px;
 }
 @media (max-width: 991px) {
@@ -668,7 +668,7 @@ header.header.sticky_menu_active {
 @media (max-width: 991px) {
   header.header.sticky_menu_active {
     padding: 15px 15px 0 15px;
-    background: #480048;
+    background: #ffffff;
     background: -webkit-linear-gradient(left, #480048, #C04848);
     background: linear-gradient(to right, #480048, #C04848);
   }
@@ -718,7 +718,7 @@ ul#top_menu li a.login:before, ul#top_menu li a.search-overlay-menu-btn:before {
   font-family: 'ElegantIcons';
   font-size: 24px;
   font-size: 1.5rem;
-  color: #fff;
+  color: #FFC107;
   text-indent: 0;
   position: absolute;
   left: 0;

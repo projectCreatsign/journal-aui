@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Udema a modern educational site template">
     <meta name="author" content="Ansonika">
-    <title>AUIA | Asian University Indonesia</title>
+    <title>AUI | Asean University International</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -37,12 +37,12 @@
 	<header class="header menu_2">
 		<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Preload -->
 		<div id="logo">
-			<a href="index.html"><img src="img/logo.png" width="149" height="42" data-retina="true" alt=""></a>
+			<a href="/"><img src="assets/img/aui/logo3.png" data-retina="true" alt=""></a>
 		</div>
 		<ul id="top_menu">
 			<li><a href="login.html" class="login">Login</a></li>
 			<li><a href="#0" class="search-overlay-menu-btn">Search</a></li>
-			{{-- <li class="hidden_tablet"><a href="admission.html" class="btn_1 rounded">Admission</a></li> --}}
+			<li class="hidden_tablet"><a href="admission.html" class="btn_1 rounded">Admission</a></li>
 		</ul>
 		<!-- /top_menu -->
 		<a href="#menu" class="btn_mobile">
@@ -64,7 +64,7 @@
 						<li><a href="index-5.html">With Cookie bar (EU law)</a></li> --}}
 					</ul>
 				</li>
-				<li><span><a href="#0">Profil</a></span>
+				<li><span><a href="/profile">Profil</a></span>
 					{{-- <ul>
 						<li><a href="courses-grid.html">Courses grid</a></li>
 						<li><a href="courses-grid-sidebar.html">Courses grid sidebar</a></li>
@@ -76,35 +76,23 @@
 						<li><a href="teacher-detail.html">Teacher detail</a></li>
 					</ul> --}}
 				</li>
-				<li><span><a href="#0">Current</a></span>
-					{{-- <ul>
-						<li><a href="#0">Menu 2</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="login.html">Login</a></li>
-						<li><a href="register.html">Register</a></li>
-						<li><a href="contacts.html">Contacts</a></li>
+				<li><span><a href="/journal">Journal</a></span>
+					<ul>
+						<li><a href="#0">Current</a></li>
+						<li><a href="/guidline">Author Guidelines</a></li>
+						<li><a href="/guidline">Publication Ethics</a></li>
+						<li><a href="/subscription">Subscriptions</a></li>
+						<li><a href="#0">List of Reviewers</a></li>
+						<li><a href="/archive">Archives</a></li>
+						{{-- <li><a href="contacts.html">Contacts</a></li>
 						<li><a href="404.html">404 page</a></li>
 						<li><a href="agenda-calendar.html">Agenda Calendar</a></li>
 						<li><a href="faq.html">Faq</a></li>
-						<li><a href="help.html">Help</a></li>
-					</ul> --}}
+						<li><a href="help.html">Help</a></li> --}}
+					</ul>
 				</li>
-				<li><span><a href="#0">Archives</a></span>
-					{{-- <ul>
-						<li><a href="media-gallery.html">Media gallery</a></li>
-						<li><a href="cart-1.html">Cart page 1</a></li>
-						<li><a href="cart-2.html">Cart page 2</a></li>
-						<li><a href="cart-3.html">Cart page 3</a></li>
-						<li><a href="pricing-tables.html">Responsive pricing tables</a></li>
-						<li><a href="coming_soon/index.html">Coming soon</a></li>
-						<li><a href="icon-pack-1.html">Icon pack 1</a></li>
-						<li><a href="icon-pack-2.html">Icon pack 2</a></li>
-						<li><a href="icon-pack-3.html">Icon pack 3</a></li>
-						<li><a href="icon-pack-4.html">Icon pack 4</a></li>
-					</ul> --}}
-				</li>
-				<li><span><a href="#0">Buy template</a></span></li>
+				<li><span><a href="#0">Announcements</a></span></li>
+				<li><span><a href="#0">Editorial Board</a></span></li>
 			</ul>
 		</nav>
 		<!-- Search Menu -->
@@ -123,7 +111,7 @@
 		<section class="hero_single version_2">
 			<div class="wrapper">
 				<div class="container">
-					<h3>What would you learn?</h3>
+					<h3>What would you want ?</h3>
 					<p>Increase your expertise in business, technology and personal development</p>
 					<form>
 						<div id="custom-search-input">
@@ -142,7 +130,7 @@
 			<div class="container">
 				<ul>
 					<li><i class="pe-7s-study"></i>
-						<h4>+200 courses</h4><span>Explore a variety of fresh topics</span>
+						<h4>+200 journal</h4><span>Explore a variety of fresh topics</span>
 					</li>
 					<li><i class="pe-7s-cup"></i>
 						<h4>Expert teachers</h4><span>Find the right instructor for you</span>
@@ -158,7 +146,7 @@
 		<div class="container-fluid margin_120_0">
 			<div class="main_title_2">
 				<span><em></em></span>
-				<h2>Udema Popular Courses</h2>
+				<h2>Asean University International</h2>
 				<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
 			</div>
 			<div id="reccomended" class="owl-carousel owl-theme">
@@ -298,7 +286,7 @@
 			</div>
 			<!-- /carousel -->
 			<div class="container">
-				<p class="btn_home_align"><a href="courses-grid.html" class="btn_1 rounded">View all courses</a></p>
+				<p class="btn_home_align"><a href="courses-grid.html" class="btn_1 rounded">View all Journals</a></p>
 			</div>
 			<!-- /container -->
 			<hr>
@@ -308,7 +296,7 @@
 		<div class="container margin_30_95">
 			<div class="main_title_2">
 				<span><em></em></span>
-				<h2>Udema Categories Courses</h2>
+				<h2>Asean University Categories Journals</h2>
 				<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
 			</div>
 			<div class="row">
@@ -489,7 +477,7 @@
 		<div class="container margin_120_95">
 			<div class="row">
 				<div class="col-lg-5 col-md-12 p-r-5">
-					<p><img src="img/logo.png" width="149" height="42" data-retina="true" alt=""></p>
+					<p><img src="assets/img/aui/logo3.png" data-retina="true" alt=""></p>
 					<p>Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu. Nihil facilisi indoctum an vix, ut delectus expetendis vis.</p>
 					<div class="follow_us">
 						<ul>
@@ -517,7 +505,7 @@
 					<h5>Contact with Us</h5>
 					<ul class="contacts">
 						<li><a href="tel://61280932400"><i class="ti-mobile"></i> + 61 23 8093 3400</a></li>
-						<li><a href="mailto:info@udema.com"><i class="ti-email"></i> info@udema.com</a></li>
+						<li><a href="mailto:info@udema.com"><i class="ti-email"></i> info@creatsign.com</a></li>
 					</ul>
 					<div id="newsletter">
 					<h6>Newsletter</h6>
@@ -541,7 +529,7 @@
 					</ul>
 				</div>
 				<div class="col-md-4">
-					<div id="copy">© 2017 Udema</div>
+					<div id="copy">©2019 Creatsign</div>
 				</div>
 			</div>
 		</div>
