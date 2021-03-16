@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Udema a modern educational site template">
     <meta name="author" content="Ansonika">
-    <title>UDEMA | Modern Educational site template</title>
+    <title>Journals | Asean University International</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -20,16 +20,13 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
 
     <!-- BASE CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-	<link href="css/vendors.css" rel="stylesheet">
-	<link href="css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
-	
-	<!-- SPECIFIC CSS -->
-	<link href="css/skins/square/grey.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/vendors.css" rel="stylesheet">
+	<link href="assets/css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
 
 </head>
 
@@ -40,7 +37,7 @@
 	<header class="header menu_2">
 		<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Preload -->
 		<div id="logo">
-			<a href="index.html"><img src="img/logo.png" width="149" height="42" data-retina="true" alt=""></a>
+			<a href="/"><img src="assets/img/aui/logo3.png" data-retina="true" alt=""></a>
 		</div>
 		<ul id="top_menu">
 			<li><a href="login.html" class="login">Login</a></li>
@@ -59,16 +56,16 @@
 			<ul>
 				<li><span><a href="#0">Home</a></span>
 					<ul>
-						<li><a href="index.html">Home version 1</a></li>
-						<li><a href="index-2.html">Home version 2</a></li>
-						<li><a href="index-6.html">Home version 3</a></li>
+						<li><a href="/">Home</a></li>
+						<li><a href="index-2.html">About</a></li>
+						{{-- <li><a href="index-6.html">Home version 3</a></li>
 						<li><a href="index-3.html">Home version 4</a></li>
 						<li><a href="index-4.html">Home version 5</a></li>
-						<li><a href="index-5.html">With Cookie bar (EU law)</a></li>
+						<li><a href="index-5.html">With Cookie bar (EU law)</a></li> --}}
 					</ul>
 				</li>
-				<li><span><a href="#0">Courses</a></span>
-					<ul>
+				<li><span><a href="/profile">Profil</a></span>
+					{{-- <ul>
 						<li><a href="courses-grid.html">Courses grid</a></li>
 						<li><a href="courses-grid-sidebar.html">Courses grid sidebar</a></li>
 						<li><a href="courses-list.html">Courses list</a></li>
@@ -77,37 +74,26 @@
                         <li><a href="course-detail-2.html">Course detail working form</a></li>
 						<li><a href="admission.html">Admission wizard</a></li>
 						<li><a href="teacher-detail.html">Teacher detail</a></li>
-					</ul>
+					</ul> --}}
 				</li>
-				<li><span><a href="#0">Pages</a></span>
+				<li><span><a href="#0">Scientific Work</a></span>
 					<ul>
-						<li><a href="#0">Menu 2</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="login.html">Login</a></li>
-						<li><a href="register.html">Register</a></li>
-						<li><a href="contacts.html">Contacts</a></li>
+						<li><a href="/journal">Journal</a></li>
+						<li><a href="#0">Current</a></li>
+						<li><a href="/guidline">Guidelines</a></li>
+						{{-- <li><a href="/guidline">Publication Ethics</a></li> --}}
+						<li><a href="/subscription">Subscriptions</a></li>
+						<li><a href="#0">List of Reviewers</a></li>
+						<li><a href="/archive">Archives</a></li>
+						{{-- <li><a href="contacts.html">Contacts</a></li>
 						<li><a href="404.html">404 page</a></li>
 						<li><a href="agenda-calendar.html">Agenda Calendar</a></li>
 						<li><a href="faq.html">Faq</a></li>
-						<li><a href="help.html">Help</a></li>
+						<li><a href="help.html">Help</a></li> --}}
 					</ul>
 				</li>
-				<li><span><a href="#0">Extra Pages</a></span>
-					<ul>
-						<li><a href="media-gallery.html">Media gallery</a></li>
-						<li><a href="cart-1.html">Cart page 1</a></li>
-						<li><a href="cart-2.html">Cart page 2</a></li>
-						<li><a href="cart-3.html">Cart page 3</a></li>
-						<li><a href="pricing-tables.html">Responsive pricing tables</a></li>
-						<li><a href="coming_soon/index.html">Coming soon</a></li>
-						<li><a href="icon-pack-1.html">Icon pack 1</a></li>
-						<li><a href="icon-pack-2.html">Icon pack 2</a></li>
-						<li><a href="icon-pack-3.html">Icon pack 3</a></li>
-						<li><a href="icon-pack-4.html">Icon pack 4</a></li>
-					</ul>
-				</li>
-				<li><span><a href="#0">Buy template</a></span></li>
+				<li><span><a href="#0">Announcements</a></span></li>
+				<li><span><a href="#0">Editorial Board</a></span></li>
 			</ul>
 		</nav>
 		<!-- Search Menu -->
@@ -126,7 +112,7 @@
 		<section id="hero_in" class="courses">
 			<div class="wrapper">
 				<div class="container">
-					<h1 class="fadeInUp"><span></span>Online courses</h1>
+					<h1 class="fadeInUp"><span></span>Journal</h1>
 				</div>
 			</div>
 		</section>
@@ -255,7 +241,7 @@
 									<div class="block-horizzontal"></div>
 									<a href="#0" class="wish_bt"></a>
 									<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_1.jpg" class="img-fluid" alt=""></a>
-									<div class="price">$54</div>
+									{{-- <div class="price">$54</div> --}}
 									<div class="preview"><span>Preview course</span></div>
 								</figure>
 								<div class="wrapper">
@@ -265,9 +251,9 @@
 									<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 								</div>
 								<ul>
-									<li><i class="icon_clock_alt"></i> 1h 30min</li>
+									{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 									<li><i class="icon_like"></i> 890</li>
-									<li><a href="course-detail.html">Enroll now</a></li>
+									<li><a href="course-detail.html">Choose Journal</a></li>
 								</ul>
 							</div>
 						</div>
@@ -278,7 +264,7 @@
 									<div class="block-horizzontal"></div>
 									<a href="#0" class="wish_bt"></a>
 									<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_2.jpg" class="img-fluid" alt=""></a>
-									<div class="price">$39</div>
+									{{-- <div class="price">$39</div> --}}
 									<div class="preview"><span>Preview course</span></div>
 								</figure>
 								<div class="wrapper">
@@ -288,9 +274,9 @@
 									<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 								</div>
 								<ul>
-									<li><i class="icon_clock_alt"></i> 1h 30min</li>
+									{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 									<li><i class="icon_like"></i> 890</li>
-									<li><a href="course-detail.html">Enroll now</a></li>
+									<li><a href="course-detail.html">Choose Journal</a></li>
 								</ul>
 							</div>
 						</div>
@@ -301,7 +287,7 @@
 									<div class="block-horizzontal"></div>
 									<a href="#0" class="wish_bt"></a>
 									<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_3.jpg" class="img-fluid" alt=""></a>
-									<div class="price">$40</div>
+									{{-- <div class="price">$40</div> --}}
 									<div class="preview"><span>Preview course</span></div>
 								</figure>
 								<div class="wrapper">
@@ -311,9 +297,9 @@
 									<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 								</div>
 								<ul>
-									<li><i class="icon_clock_alt"></i> 1h 30min</li>
+									{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 									<li><i class="icon_like"></i> 890</li>
-									<li><a href="course-detail.html">Enroll now</a></li>
+									<li><a href="course-detail.html">Choose Journal</a></li>
 								</ul>
 							</div>
 						</div>
@@ -324,7 +310,7 @@
 									<div class="block-horizzontal"></div>
 									<a href="#0" class="wish_bt"></a>
 									<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_4.jpg" class="img-fluid" alt=""></a>
-									<div class="price">$65</div>
+									{{-- <div class="price">$65</div> --}}
 									<div class="preview"><span>Preview course</span></div>
 								</figure>
 								<div class="wrapper">
@@ -334,9 +320,9 @@
 									<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 								</div>
 								<ul>
-									<li><i class="icon_clock_alt"></i> 1h 30min</li>
+									{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 									<li><i class="icon_like"></i> 890</li>
-									<li><a href="course-detail.html">Enroll now</a></li>
+									<li><a href="course-detail.html">Choose Journal</a></li>
 								</ul>
 							</div>
 						</div>
@@ -347,7 +333,7 @@
 									<div class="block-horizzontal"></div>
 									<a href="#0" class="wish_bt"></a>
 									<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_5.jpg" class="img-fluid" alt=""></a>
-									<div class="price">$35</div>
+									{{-- <div class="price">$35</div> --}}
 									<div class="preview"><span>Preview course</span></div>
 								</figure>
 								<div class="wrapper">
@@ -357,9 +343,9 @@
 									<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 								</div>
 								<ul>
-									<li><i class="icon_clock_alt"></i> 1h 30min</li>
+									{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 									<li><i class="icon_like"></i> 890</li>
-									<li><a href="course-detail.html">Enroll now</a></li>
+									<li><a href="course-detail.html">Choose Journal</a></li>
 								</ul>
 							</div>
 						</div>
@@ -370,7 +356,7 @@
 									<div class="block-horizzontal"></div>
 									<a href="#0" class="wish_bt"></a>
 									<a href="course-detail.html"><img src="http://via.placeholder.com/800x533/ccc/fff/course__list_6.jpg" class="img-fluid" alt=""></a>
-									<div class="price">$47</div>
+									{{-- <div class="price">$47</div> --}}
 									<div class="preview"><span>Preview course</span></div>
 								</figure>
 								<div class="wrapper">
@@ -380,9 +366,9 @@
 									<div class="rating"><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star voted"></i><i class="icon_star"></i><i class="icon_star"></i> <small>(145)</small></div>
 								</div>
 								<ul>
-									<li><i class="icon_clock_alt"></i> 1h 30min</li>
+									{{-- <li><i class="icon_clock_alt"></i> 1h 30min</li> --}}
 									<li><i class="icon_like"></i> 890</li>
-									<li><a href="course-detail.html">Enroll now</a></li>
+									<li><a href="course-detail.html">Choose Journal</a></li>
 								</ul>
 							</div>
 						</div>
@@ -432,7 +418,7 @@
 		<div class="container margin_120_95">
 			<div class="row">
 				<div class="col-lg-5 col-md-12 p-r-5">
-					<p><img src="img/logo.png" width="149" height="42" data-retina="true" alt=""></p>
+					<p><img src="assets/img/aui/logo3.png" data-retina="true" alt=""></p>
 					<p>Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu. Nihil facilisi indoctum an vix, ut delectus expetendis vis.</p>
 					<div class="follow_us">
 						<ul>
@@ -460,7 +446,7 @@
 					<h5>Contact with Us</h5>
 					<ul class="contacts">
 						<li><a href="tel://61280932400"><i class="ti-mobile"></i> + 61 23 8093 3400</a></li>
-						<li><a href="mailto:info@udema.com"><i class="ti-email"></i> info@udema.com</a></li>
+						<li><a href="mailto:info@udema.com"><i class="ti-email"></i> info@creatsign.com</a></li>
 					</ul>
 					<div id="newsletter">
 					<h6>Newsletter</h6>
@@ -484,7 +470,7 @@
 					</ul>
 				</div>
 				<div class="col-md-4">
-					<div id="copy">© 2017 Udema</div>
+					<div id="copy">©2019 Creatsign</div>
 				</div>
 			</div>
 		</div>
@@ -494,10 +480,10 @@
 	<!-- page -->
 
 	<!-- COMMON SCRIPTS -->
-    <script src="js/jquery-2.2.4.min.js"></script>
-    <script src="js/common_scripts.js"></script>
-    <script src="js/main.js"></script>
-	<script src="assets/validate.js"></script>
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <script src="assets/js/common_scripts.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script src="assets/js/validate.js"></script>
   
 </body>
 </html>

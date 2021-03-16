@@ -16,9 +16,6 @@
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
 
-    <!-- GOOGLE WEB FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
-
     <!-- BASE CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
@@ -56,7 +53,7 @@
 			<ul>
 				<li><span><a href="#0">Home</a></span>
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="/">Home</a></li>
 						<li><a href="index-2.html">About</a></li>
 						{{-- <li><a href="index-6.html">Home version 3</a></li>
 						<li><a href="index-3.html">Home version 4</a></li>
@@ -76,11 +73,12 @@
 						<li><a href="teacher-detail.html">Teacher detail</a></li>
 					</ul> --}}
 				</li>
-				<li><span><a href="/journal">Journal</a></span>
+				<li><span><a href="#0">Scientific Work</a></span>
 					<ul>
+						<li><a href="/journal">Journal</a></li>
 						<li><a href="#0">Current</a></li>
-						<li><a href="/guidline">Author Guidelines</a></li>
-						<li><a href="/guidline">Publication Ethics</a></li>
+						<li><a href="/guidline">Guidelines</a></li>
+						{{-- <li><a href="/guidline">Publication Ethics</a></li> --}}
 						<li><a href="/subscription">Subscriptions</a></li>
 						<li><a href="#0">List of Reviewers</a></li>
 						<li><a href="/archive">Archives</a></li>
