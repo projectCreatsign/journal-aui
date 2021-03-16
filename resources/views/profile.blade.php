@@ -15,7 +15,7 @@
     <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="assets/img/aui/logo.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="assets/img/aui/logo.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="assets/img/aui/logo.png">
-	
+
     <!-- BASE CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
@@ -302,7 +302,7 @@
 					</ul>
 				</div>
 				<div class="col-md-4">
-					<div id="copy">©2019 Creatsign</div>
+					<div id="copy">©2021 Creatsign</div>
 				</div>
 			</div>
 		</div>

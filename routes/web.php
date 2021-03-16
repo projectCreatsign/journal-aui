@@ -19,7 +19,7 @@ Route::view('/journal', 'journal');
 Route::view('/archive', 'archive');
 Route::view('/guidline', 'guidline');
 Route::view('/subscription', 'subscription');
-// Route::view('/profile', 'profile');
-// Route::view('/profile', 'profile');
+Route::view('/login', 'login');
+Route::view('/register', 'register');
 // Route::view('/profile', 'profile');
 

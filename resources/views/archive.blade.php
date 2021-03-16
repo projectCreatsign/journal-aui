@@ -384,7 +384,7 @@
 					</ul>
 				</div>
 				<div class="col-md-4">
-					<div id="copy">©2019 Creatsign</div>
+					<div id="copy">©2021 Creatsign</div>
 				</div>
 			</div>
 		</div>

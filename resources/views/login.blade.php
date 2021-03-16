@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Udema a modern educational site template">
     <meta name="author" content="Ansonika">
-    <title>UDEMA | Modern Educational site template</title>
+    <title>Asian University International</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -20,13 +20,13 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
 
     <!-- BASE CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-	<link href="css/vendors.css" rel="stylesheet">
-	<link href="css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/vendors.css" rel="stylesheet">
+	<link href="assets/css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
 
 </head>
 
@@ -70,16 +70,16 @@
 				<a href="#0" class="btn_1 rounded full-width add_top_60">Login to Udema</a>
 				<div class="text-center add_top_10">New to Udema? <strong><a href="register.html">Sign up!</a></strong></div>
 			</form>
-			<div class="copy">© 2017 Udema</div>
+			<div class="copy">©2021 Creatsign</div>
 		</aside>
 	</div>
 	<!-- /login -->
 		
 	<!-- COMMON SCRIPTS -->
-    <script src="js/jquery-2.2.4.min.js"></script>
-    <script src="js/common_scripts.js"></script>
-    <script src="js/main.js"></script>
-	<script src="assets/validate.js"></script>	
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <script src="assets/js/common_scripts.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script src="assets/js/validate.js"></script>	
   
 </body>
 </html>
