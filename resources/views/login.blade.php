@@ -42,7 +42,7 @@
 	<div id="login">
 		<aside>
 			<figure>
-				<a href="index.html"><img src="img/logo.png" width="149" height="42" data-retina="true" alt=""></a>
+				<a href="index.html"><img src="assets/img/aui/logo3.png" data-retina="true" alt=""></a>
 			</figure>
 			  <form>
 				<div class="access_social">
@@ -67,8 +67,8 @@
 					</span>
 					<small><a href="#0">Forgot password?</a></small>
 				</div>
-				<a href="#0" class="btn_1 rounded full-width add_top_60">Login to Udema</a>
-				<div class="text-center add_top_10">New to Udema? <strong><a href="register.html">Sign up!</a></strong></div>
+				<a href="#0" class="btn_1 rounded full-width add_top_60">Login</a>
+				<div class="text-center add_top_10">Dont have Account? <strong><a href="register.html">Sign up!</a></strong></div>
 			</form>
 			<div class="copy">©2021 Creatsign</div>
 		</aside>

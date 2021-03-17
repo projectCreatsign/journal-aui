@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Udema a modern educational site template">
     <meta name="author" content="Ansonika">
-    <title>Journals | Asean University International</title>
+    <title>Journal AUI-Journals</title>
 
    <!-- Favicons-->
     <link rel="shortcut icon" href="assets/img/aui/logo.png" type="image/x-icon">
