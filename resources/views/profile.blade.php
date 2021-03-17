@@ -16,6 +16,9 @@
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="assets/img/aui/logo.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="assets/img/aui/logo.png">
 
+	<!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+
     <!-- BASE CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">

@@ -779,7 +779,7 @@ ul#top_menu li a.btn_1:hover {
   border-bottom: 5px solid #FFC107;
 }
 #hero_in.general:before {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_general.jpg) center center no-repeat;
+  background: url(../img/aui/walpaper3.png) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -787,10 +787,10 @@ ul#top_menu li a.btn_1:hover {
 }
 #hero_in.general .wrapper {
   background-color: #372675;
-  background-color: rgba(57, 39, 121, 0.8);
+  background-color: rgba(57, 39, 121, 0);
 }
 #hero_in.courses:before {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_courses.jpg) center center no-repeat;
+  background: url(../img/aui/walpaper3.png) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -801,7 +801,7 @@ ul#top_menu li a.btn_1:hover {
   background-color: rgba(57, 39, 121, 0.8);
 }
 #hero_in.contacts:before {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/bg_contacts.jpg) center center no-repeat;
+  background: url(../img/aui/walpaper3.png) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -822,8 +822,8 @@ ul#top_menu li a.btn_1:hover {
   left: 0;
   z-index: -1;
   filter: gray;
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
+  /* -webkit-filter: grayscale(1);
+  filter: grayscale(1); */
 }
 #hero_in .wrapper {
   display: flex;
@@ -1295,7 +1295,7 @@ video {
 }
 .hero_single .wrapper {
   background-color: #632c8d;
-  background-color: rgba(102, 45, 145, 0.8);
+  background-color: rgba(102, 45, 145, 0);
 }
 .hero_single.start_bg_zoom:before {
   animation: pop-in 5s 0.3s cubic-bezier(0, 0.5, 0, 1) forwards;
@@ -1364,7 +1364,7 @@ video {
   }
 }
 .hero_single.version_2:before {
-  background: url(http://via.placeholder.com/1600x1067/ccc/fff/home_section_1.jpg) center center no-repeat fixed;
+  background: url(../img/aui/walpaper3.png) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1372,7 +1372,7 @@ video {
 }
 .hero_single.version_2 .wrapper {
   background-color: #372675;
-  background-color: rgba(57, 39, 121, 0.8);
+  background-color: rgba(182, 182, 181, 0);
 }
 .hero_single.version_2 .wrapper h3 {
   font-size: 42px;
@@ -1582,9 +1582,9 @@ ul#grid_home li a.img_container img {
   -ms-backface-visibility: hidden;
   -o-backface-visibility: hidden;
   backface-visibility: hidden;
-  filter: gray;
+  /* filter: gray;
   -webkit-filter: grayscale(1);
-  filter: grayscale(1);
+  filter: grayscale(1); */
 }
 @media (max-width: 1199px) {
   ul#grid_home li a.img_container img {
